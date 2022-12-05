@@ -124,6 +124,9 @@ else if(clave == 2)
 {
     descuento = 0.2
 }
+else{
+    alert(`La clave ingresada no existe. No se hará ningun descuento.`)
+}
 precioFinal = precioOriginal*cantidad*(1-descuento)
 alert(`FACTURA\nArticulo: ${nombreArticulo}\nCantidad : ${cantidad} \nPrecio Unidad: $${precioOriginal}\nDescuento: ${descuento*100}%\nEl precio final es $${precioFinal}`)
 
